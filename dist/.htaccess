@@ -8,4 +8,6 @@
 
 <IfModule mod_headers.c>
   Header set X-Powered-By "Hostinger Horizons"
+  AddType application/javascript .js
+  AddType text/css .css
 </IfModule>
